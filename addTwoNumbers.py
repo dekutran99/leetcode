@@ -53,3 +53,4 @@ class Solution:
             q = None if q == None else q.next
             
         return sm.next
+		
