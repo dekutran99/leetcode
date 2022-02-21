@@ -1,5 +1,5 @@
 class Solution:
-	# # brute force
+    '''brute force'''
     # def lengthOfLongestSubstring(self, s: str) -> int:
     #     record = {}
     #     lenOfSubStrWithoutRepeat = 0
@@ -19,7 +19,8 @@ class Solution:
     #             i = repeatIdx + 1
         
     #     return lenOfLongestSubStr
-              
+
+    '''optimal'''     
     def lengthOfLongestSubstring(self, s: str) -> int:
         record = {}
         curLenOfSubStrWithoutRepeat = 0
